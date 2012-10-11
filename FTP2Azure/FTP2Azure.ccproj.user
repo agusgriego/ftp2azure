@@ -10,7 +10,7 @@
     <DeploymentEnableWebDeploy>False</DeploymentEnableWebDeploy>
     <DeploymentStorageService>otherguys</DeploymentStorageService>
     <DeploymentStorageServiceLabel>otherguys</DeploymentStorageServiceLabel>
-    <DeploymentLabel>FTP2Azure - 10/10/2012 09:45:28 p.m.</DeploymentLabel>
+    <DeploymentLabel>FTP2Azure - 11/10/2012 09:47:46 a.m.</DeploymentLabel>
     <DeploymentPromptBeforeDeleting>True</DeploymentPromptBeforeDeleting>
     <DeploymentIsExpanded>False</DeploymentIsExpanded>
   </PropertyGroup>
