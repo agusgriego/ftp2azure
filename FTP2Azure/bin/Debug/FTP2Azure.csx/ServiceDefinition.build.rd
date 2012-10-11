@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FTP2Azure" generation="1" functional="0" release="0" Id="ee1ebe6e-91e6-4078-9a93-55d3543c016d" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FTP2Azure" generation="1" functional="0" release="0" Id="a3fa4c5c-19b9-46f7-bf7a-35ea8745cf60" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="FTP2AzureGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -176,9 +176,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="3cfdc711-9989-471f-aa3f-b4ed533d5a00" ref="Microsoft.RedDog.Contract\ServiceContract\FTP2AzureContract@ServiceDefinition.build">
+    <implementation Id="5b8a39d7-8fb7-460f-ab33-f1c25207624f" ref="Microsoft.RedDog.Contract\ServiceContract\FTP2AzureContract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="1c905db9-caf2-42db-92af-38cb46ba3267" ref="Microsoft.RedDog.Contract\Interface\FTPServerRole:FTP@ServiceDefinition.build">
+        <interfaceReference Id="259b3b64-960e-47d9-84aa-a6622af8302e" ref="Microsoft.RedDog.Contract\Interface\FTPServerRole:FTP@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/FTP2Azure/FTP2AzureGroup/FTPServerRole:FTP" />
           </inPort>

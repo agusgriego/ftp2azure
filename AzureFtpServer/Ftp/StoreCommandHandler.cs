@@ -16,11 +16,12 @@ namespace AzureFtpServer.FtpCommands
         protected override string OnProcess(string sMessage)
         {
             string sFile = GetPath(sMessage);
+            string lower_sFile = sFile.ToLower();
 
-            if (ConnectionObject.FileSystemObject.FileExists(sFile))
+            if (ConnectionObject.FileSystemObject.FileExists(lower_sFile))
             {
                 // si el archivo existe lo eliminamos antes de crearlo!!!
-                if (!ConnectionObject.FileSystemObject.Delete(sFile))
+                if (!ConnectionObject.FileSystemObject.Delete(lower_sFile))
                     return GetMessage(553, "File already exists. Y no se pudo eliminar (agregardo por ED)");
             }
 
@@ -45,7 +46,7 @@ namespace AzureFtpServer.FtpCommands
                 nReceived = socketReply.Receive(abData);
             }
 
-            ConnectionObject.FileSystemObject.Put(sFile, file);
+            ConnectionObject.FileSystemObject.Put(lower_sFile, file);
             file.Close();
 
             socketReply.Close();
