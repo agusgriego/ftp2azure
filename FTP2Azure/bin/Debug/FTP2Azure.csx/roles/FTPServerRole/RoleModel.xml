@@ -9,11 +9,11 @@
     <Property name="Platform" value="AnyCPU" />
     <Property name="SourceDir" value="" />
     <Property name="SitePhysicalPath" value="" />
-    <Property name="OutputDir" value="C:\Users\edavidis\Desktop\FTP2Azure\FTP2Azure\obj\Debug\FTPServerRole\" />
+    <Property name="OutputDir" value="C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\FTP2Azure\obj\Debug\FTPServerRole\" />
     <Property name="EntryPoint" value="FTPServerRole.dll" />
     <Property name="RoleTargetFramework" value="v4.0" />
-    <Property name="OriginalItemSpec" value="C:\Users\edavidis\Desktop\FTP2Azure\FTP2Azure\FTP2Azure.ccproj" />
-    <Property name="MSBuildSourceProjectFile" value="C:\Users\edavidis\Desktop\FTP2Azure\FTP2Azure\FTP2Azure.ccproj" />
+    <Property name="OriginalItemSpec" value="C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\FTP2Azure\FTP2Azure.ccproj" />
+    <Property name="MSBuildSourceProjectFile" value="C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\FTP2Azure\FTP2Azure.ccproj" />
     <Property name="MSBuildSourceTargetName" value="ResolveSingleWorkerRoleReference" />
     <Property name="TargetFrameworkVersion" value="v4.0" />
     <Property name="TargetRuntimeVersion" value="v4.0" />

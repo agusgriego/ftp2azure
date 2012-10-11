@@ -19,7 +19,9 @@ namespace AzureFtpServer.FtpCommands
 
             if (ConnectionObject.FileSystemObject.FileExists(sFile))
             {
-                return GetMessage(553, "File already exists.");
+                // si el archivo existe lo eliminamos antes de crearlo!!!
+                if (!ConnectionObject.FileSystemObject.Delete(sFile))
+                    return GetMessage(553, "File already exists. Y no se pudo eliminar (agregardo por ED)");
             }
 
             IFile file = ConnectionObject.FileSystemObject.OpenFile(sFile, true);

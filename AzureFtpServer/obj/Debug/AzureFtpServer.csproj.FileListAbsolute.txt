@@ -5,3 +5,9 @@ C:\Users\edavidis\Desktop\FTP2Azure\AzureFtpServer\bin\Debug\Microsoft.WindowsAz
 C:\Users\edavidis\Desktop\FTP2Azure\AzureFtpServer\obj\Debug\AzureFtpServer.dll
 C:\Users\edavidis\Desktop\FTP2Azure\AzureFtpServer\obj\Debug\AzureFtpServer.pdb
 C:\Users\edavidis\Desktop\FTP2Azure\AzureFtpServer\obj\Debug\AzureFtpServer.csprojResolveAssemblyReference.cache
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\AzureFtpServer\bin\Debug\AzureFtpServer.dll
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\AzureFtpServer\bin\Debug\AzureFtpServer.pdb
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\AzureFtpServer\bin\Debug\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\AzureFtpServer\bin\Debug\Microsoft.WindowsAzure.StorageClient.xml
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\AzureFtpServer\obj\Debug\AzureFtpServer.dll
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\AzureFtpServer\obj\Debug\AzureFtpServer.pdb

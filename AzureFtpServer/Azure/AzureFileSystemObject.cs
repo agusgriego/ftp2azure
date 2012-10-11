@@ -125,6 +125,8 @@ namespace AzureFtpServer.Azure
                             Size = oFile.File.Length
                         };
 
+            
+
             _provider.Put(f);
             return true;
         }

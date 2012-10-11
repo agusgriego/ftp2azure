@@ -10,3 +10,15 @@ C:\Users\edavidis\Desktop\FTP2Azure\WorkerRole1\bin\Debug\Microsoft.WindowsAzure
 C:\Users\edavidis\Desktop\FTP2Azure\WorkerRole1\obj\Debug\FTPServerRole.csprojResolveAssemblyReference.cache
 C:\Users\edavidis\Desktop\FTP2Azure\WorkerRole1\obj\Debug\FTPServerRole.dll
 C:\Users\edavidis\Desktop\FTP2Azure\WorkerRole1\obj\Debug\FTPServerRole.pdb
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\bin\Debug\FTPServerRole.dll.config
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\bin\Debug\FTPServerRole.dll
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\bin\Debug\FTPServerRole.pdb
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\bin\Debug\AzureFtpServer.dll
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\bin\Debug\AzureFtpServer.pdb
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.StorageClient.xml
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagnostics.xml
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\obj\Debug\FTPServerRole.csprojResolveAssemblyReference.cache
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\obj\Debug\FTPServerRole.dll
+C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\WorkerRole1\obj\Debug\FTPServerRole.pdb

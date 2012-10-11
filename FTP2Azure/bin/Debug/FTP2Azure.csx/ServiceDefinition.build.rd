@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FTP2Azure" generation="1" functional="0" release="0" Id="290fdb9a-229b-43cf-83ac-9eec55b51dbb" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FTP2Azure" generation="1" functional="0" release="0" Id="ee1ebe6e-91e6-4078-9a93-55d3543c016d" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="FTP2AzureGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -142,7 +142,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="FTPServerRole" generation="1" functional="0" release="0" software="C:\Users\edavidis\Desktop\FTP2Azure\FTP2Azure\bin\Debug\FTP2Azure.csx\roles\FTPServerRole" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="1792" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="FTPServerRole" generation="1" functional="0" release="0" software="C:\Users\edavidis\Documents\Proyectos\socialgames\ftp2azure\FTP2Azure\bin\Debug\FTP2Azure.csx\roles\FTPServerRole" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="1792" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="FTP" protocol="tcp" portRanges="21" />
             </componentports>
@@ -176,9 +176,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="ec814ae6-890f-46c8-b115-04113df7f77c" ref="Microsoft.RedDog.Contract\ServiceContract\FTP2AzureContract@ServiceDefinition.build">
+    <implementation Id="3cfdc711-9989-471f-aa3f-b4ed533d5a00" ref="Microsoft.RedDog.Contract\ServiceContract\FTP2AzureContract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="dc536d4f-b134-4ee8-a728-af9b1bf19c1d" ref="Microsoft.RedDog.Contract\Interface\FTPServerRole:FTP@ServiceDefinition.build">
+        <interfaceReference Id="1c905db9-caf2-42db-92af-38cb46ba3267" ref="Microsoft.RedDog.Contract\Interface\FTPServerRole:FTP@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/FTP2Azure/FTP2AzureGroup/FTPServerRole:FTP" />
           </inPort>

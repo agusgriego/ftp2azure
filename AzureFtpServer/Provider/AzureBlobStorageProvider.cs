@@ -25,6 +25,7 @@ namespace AzureFtpServer.Provider {
 
         private CloudStorageAccount _account;
         private CloudBlobClient _blobClient;
+        private CloudBlob blob;
 
         public AzureBlobStorageProvider(String containerName)
         {
@@ -133,14 +134,18 @@ namespace AzureFtpServer.Provider {
 
             // Create a reference for the filename
             String uniqueName = path;
-            CloudBlob blob = container.GetBlobReference(uniqueName);
+            blob = container.GetBlobReference(uniqueName);
 
             // Create a new AsyncCallback instance
             AsyncCallback callback = PutOperationCompleteCallback;
+
+
+            
             blob.BeginUploadFromStream(new MemoryStream(o.Data), callback, o.Uri);
+            
 
             // Uncomment for synchronous upload
-            //blob.UploadFromStream(new System.IO.MemoryStream(o.Data));
+            // blob.UploadFromStream(new System.IO.MemoryStream(o.Data));
         }
 
         /// <summary>
@@ -544,18 +549,59 @@ namespace AzureFtpServer.Provider {
 
         #region "Callbacks"
 
+
+
+
         /// <summary>
         /// Announce completion of PUT operation
         /// </summary>
         /// <param name="result"></param>
         private void PutOperationCompleteCallback(IAsyncResult result)
         {
+
+            if (blob != null)
+            {
+
+                bool propFlag = false;
+                switch (Path.GetExtension(blob.Uri.AbsoluteUri))
+                {
+                    case ".js":
+                    case ".html":
+                        blob.Properties.ContentType = "text/html";
+                        propFlag = true;
+                        break;
+                    case ".css":
+                        blob.Properties.ContentType = "text/css";
+                        propFlag = true;
+                        break;
+                    case ".txt":
+                        blob.Properties.ContentType = "text/text";
+                        propFlag = true;
+                        break;
+                    case ".png":
+                        blob.Properties.ContentType = "image/png";
+                        propFlag = true;
+                        break;
+                    //
+                }
+                if (propFlag) blob.SetProperties();
+
+            }
+
             var o = (Uri) result.AsyncState;
+            
             if (StorageProviderOperationCompleted == null) return;
             var a = new StorageProviderEventArgs
                         {Operation = StorageOperation.Put, Result = StorageOperationResult.Created};
 
             // Raise the event
+
+            //blob.Properties.ContentType = "text/html";
+            //blob.BeginSetProperties(ChangeOptionsOperationCompleteCallback, null);
+
+
+
+
             StorageProviderOperationCompleted(o, a);
         }
 
